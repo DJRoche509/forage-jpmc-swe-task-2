@@ -12,9 +12,16 @@ This task is considered complete when the client-side web application displays a
 ## Steps Completed
 ### 1. Setting Up the Local Development Environment
 - Fork and clone the project repository from [GitHub](https://github.com/theforage/forage-jpmc-swe-task-2).
-- Install necessary tools and dependencies using npm:
+- Create a [virtual environment](https://www.youtube.com/watch?v=GZbeL5AcTgw). For Windows 10, run:
+  ```
+  python -m venv .venv
+  ```
+- Install necessary tools and dependencies using npm and pip:
   ```
   npm install
+  ```
+  ```
+  python -m pip install python-dateutil==2.8.2
   ```
 ### 2. Fixing the Client-Side Web Application
 - Run the server file to establish a connection:
